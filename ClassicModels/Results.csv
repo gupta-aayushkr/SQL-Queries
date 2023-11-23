@@ -1,0 +1,9 @@
+Field,Type,Null,Key,Default,Extra
+employeeNumber,b'int',NO,PRI,NULL,
+lastName,b'varchar(50)',NO,,NULL,
+firstName,b'varchar(50)',NO,,NULL,
+extension,b'varchar(10)',NO,,NULL,
+email,b'varchar(100)',NO,,NULL,
+officeCode,b'varchar(10)',NO,MUL,NULL,
+reportsTo,b'int',YES,MUL,NULL,
+jobTitle,b'varchar(50)',NO,,NULL,
